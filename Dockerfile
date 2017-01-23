@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.5.0-java
+ENV VERSION=1.5.1.pre0
 
 RUN gem install action_subscriber --version ${VERSION} --no-format-exec
 
